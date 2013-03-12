@@ -1,0 +1,563 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/event_lt" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/footerLayout"
+        android:layout_below="@+id/headerLayout" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="vertical" >
+
+            <!-- Header View -->
+
+            <LinearLayout
+                android:id="@+id/headerLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/event_header_bar"
+                android:gravity="center_vertical"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:weightSum="100" >
+
+                <com.teamapp.ui.FlipButton
+                    android:id="@+id/btnClub"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="20"
+                    android:text="@string/club" />
+
+                <TextView
+                    android:id="@+id/lblTitle"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="60"
+                    android:ellipsize="end"
+                    android:gravity="center"
+                    android:maxLines="2"
+                    android:padding="2dp"
+                    android:textColor="@color/white"
+                    android:textSize="18sp" />
+
+                <Button
+                    android:id="@+id/btnAll"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="20"
+                    android:text="@string/all" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bodyLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/detailsLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/name"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblName"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/activity_desc"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblDescription"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/activity_type"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblType"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/season"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblSeason"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/activity_location"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblLocation"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="60"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/btnGmap"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="1dp"
+                            android:layout_weight="10"
+                            android:src="@drawable/gpin" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/date"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblDate"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:inputType="date"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/time"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblTime"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="15"
+                            android:inputType="time"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/btnCalender"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="10"
+                            android:src="@drawable/btn_calender" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout4"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="2dp"
+                        android:paddingTop="2dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="30"
+                            android:text="@string/activity_details"
+                            android:textColor="@color/black" />
+
+                        <TextView
+                            android:id="@+id/lblDetails"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="70"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <!-- Horizontal Divider -->
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/event_hor_div" />
+
+                <LinearLayout
+                    android:id="@+id/attendanceLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical" >
+
+                    <!-- Player Attendance Info -->
+
+                    <LinearLayout
+                        android:id="@+id/attendanceBarLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/event_title_bar"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:weightSum="100" >
+
+                        <TextView
+                            android:id="@+id/lblPresent"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="33"
+                            android:gravity="center"
+                            android:text="@string/activity_present"
+                            android:textColor="@color/white" >
+                        </TextView>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="4dp"
+                            android:background="@drawable/event_title_ver_div" />
+
+                        <TextView
+                            android:id="@+id/lblAbsent"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_weight="33"
+                            android:gravity="center"
+                            android:text="@string/activity_absent"
+                            android:textColor="@color/white" >
+                        </TextView>
+
+                        <View
+                            android:layout_width="2dp"
+                            android:layout_height="fill_parent"
+                            android:background="@drawable/event_title_ver_div" />
+
+                        <TextView
+                            android:id="@+id/lblSupporting"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_marginLeft="1dp"
+                            android:layout_weight="33"
+                            android:gravity="center"
+                            android:text="@string/activity_supporter"
+                            android:textColor="@color/white" >
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/attendanceListLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:background="@drawable/event_attendance_bg"
+                        android:weightSum="1" >
+
+                        <ListView
+                            android:id="@+id/lstPresent"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.33"
+                            android:scrollbars="none" >
+                        </ListView>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:background="@color/event" />
+
+                        <ListView
+                            android:id="@+id/lstAbsent"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.34"
+                            android:scrollbars="none" >
+                        </ListView>
+
+                        <View
+                            android:layout_width="1dp"
+                            android:layout_height="fill_parent"
+                            android:background="@color/event" />
+
+                        <ListView
+                            android:id="@+id/lstSupporting"
+                            android:layout_width="0dip"
+                            android:layout_height="fill_parent"
+                            android:layout_margin="5dp"
+                            android:layout_weight="0.33"
+                            android:scrollbars="none" >
+                        </ListView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/lblNotResponded"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/activity_not_responded"
+                        android:textColor="@color/white"
+                        android:textStyle="bold" />
+
+                    <ListView
+                        android:id="@+id/lstNotResponded"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:scrollbars="none" >
+                    </ListView>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="10dp"
+                    android:background="@drawable/event_hor_div" />
+
+                <LinearLayout
+                    android:id="@+id/commentsLayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp" >
+
+                    <LinearLayout
+                        android:id="@+id/attendanceBarLayout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/event_title_bar"
+                        android:gravity="center" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/comments_header"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/linearLayout2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="@color/white"
+                        android:orientation="vertical"
+                        android:padding="7dp" >
+
+                        <TextView
+                            android:id="@+id/textView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/comments_name"
+                            android:textColor="@color/black" />
+
+                        <EditText
+                            android:id="@+id/txtComments"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textImeMultiLine" >
+                        </EditText>
+
+                        <Button
+                            android:id="@+id/btnPost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="40dp"
+                            android:layout_gravity="right"
+                            android:text="@string/post" />
+                    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/lstComments"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:cacheColorHint="@color/transparent"
+                        android:scrollbars="none" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/footer_bar"
+        android:gravity="center_vertical"
+        android:weightSum="100" >
+
+        <ImageView
+            android:id="@+id/btnLeft"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/btn_left_arrow_24" />
+
+        <ImageView
+            android:id="@+id/btnAdd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/btn_add_24" />
+
+        <ImageView
+            android:id="@+id/btnEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/btn_edit_24" />
+
+        <ImageView
+            android:id="@+id/btnDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/btn_delete_24" />
+
+        <ImageView
+            android:id="@+id/btnRight"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="20"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/btn_right_arrow_24" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.ProgressBar.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

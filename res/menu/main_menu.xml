@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mniMyTeam"
+        android:icon="@drawable/icon"
+        android:title="My Team"/>
+
+    <item
+        android:id="@+id/mniMyClub"
+        android:icon="@drawable/icon"
+        android:title="My Club"/>
+
+</menu>

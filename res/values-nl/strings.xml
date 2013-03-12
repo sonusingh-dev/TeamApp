@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeamApp.nl</string>
+    <string name="club">Club</string>
+    <string name="team">Team</string>
+    <string name="album">Album</string>
+    <string name="game">Wedstrijd</string>
+    <string name="event">Evenementen</string>
+    <string name="task">Taken</string>
+    <string name="training">Trainingen</string>
+    <string name="news">Nieuws</string>
+    <string name="poll">Stellingen</string>
+    <string name="all">Alle</string>
+    <string name="yes">ja</string>
+    <string name="no">Nee</string>
+    <string name="send">Verzenden</string>
+    <string name="ok">OK</string>
+    <string name="save">Opslaan</string>
+    <string name="cancel">Annuleren</string>
+    <string name="add">Toevoegen</string>
+    <string name="edit">Bewerken</string>
+    <string name="delete">Verwijder</string>
+    <string name="submit">voorleggen</string>
+    <string name="update">bijwerken</string>
+    <string name="share">aandeel</string>
+    <string name="post">Post</string>
+    <string name="logout">Afmelden</string>
+    <string name="clubden">Clubden</string>
+    <string name="search">Zoeken</string>
+    <string name="upload">Upload Image</string>
+    <string name="camera">Neem Photo</string>
+    <string name="gallery">U kunt kiezen uit Galerij...</string>
+    <string name="attendance">Aanwezigheid</string>
+    <string name="comments">Opmerkingen</string>
+    <string name="notification">kennisgeving</string>
+    <string name="available">beschikbaar</string>
+    <string name="all_act">alle activiteit</string>
+    <string name="season">Seizoen: </string>
+    <string name="search_header">Zoeken Player</string>
+    <string name="search_title">Zoek op: </string>
+    <string name="player">speler</string>
+    <string name="date">Datum: </string>
+    <string name="date_picker">Datum plukker</string>
+    <string name="time">Tijd: </string>
+    <string name="time_picker">Tijd plukker</string>
+    <string name="name">Naam: </string>
+    <string name="nick">Bijnaam: </string>
+    <string name="birth">Geboortedatum: </string>
+    <string name="share_title">Artikel delen met</string>
+
+    <!-- Login Screen -->
+    <string name="login_header">TeamApp.nl</string>
+    <string name="login_title">TeamApp.nl in te loggen met uw gebruikersnaam en wachtwoord</string>
+    <string name="login_login">inloggen</string>
+    <string name="login_faq">FAQ</string>
+    <string name="login_forgot_password">Wachtwoord vergeten</string>
+    <string name="login_register_title">Heb je geen TeamApp.nl account?</string>
+    <string name="login_register">registreren</string>
+    <string name="login_"></string>
+
+    <!-- Comments -->
+    <string name="comments_header">Opmerkingen</string>
+    <string name="comments_name">Post Opmerkingen: </string>
+    <string name="comments_post">Post</string>
+    <string name="comments_popup">Wat wilt u doen?</string>
+    <string name="comments_"></string>
+
+    <!-- Activities Screen -->
+    <string name="activity_header"></string>
+    <string name="activity_type">Soort: </string>
+    <string name="activity_type_other">Ander type: </string>
+    <string name="activity_location">Lokatie: </string>
+    <string name="activity_location_other">andere locatie: </string>
+    <string name="activity_desc">Omschrijving: </string>
+    <string name="activity_details">Details: </string>
+    <string name="activity_present">Aanwezig</string>
+    <string name="activity_absent">Afwezig</string>
+    <string name="activity_supporter">Supporter</string>
+    <string name="activity_not_responded">Niet gereageerd</string>
+    <string name="activity_accepted">geaccepteerd door</string>
+    <string name="activity_assign">Wijs Player</string>
+    <string name="activity_threshold">drempel: </string>
+    <string name="activity_assembly">verzamelen: </string>
+    <string name="activity_assembly_date">Datum verzamelen: </string>
+    <string name="activity_assembly_time">Plaats van verzamelen: </string>
+    <string name="activity_assembly_date_time">Datum en tijd van de Vergadering: </string>
+    <string name="activity_opponent">Tegenstander: </string>
+    <string name="activity_opponent_team">Tegenstander Team: </string>
+    <string name="activity_opponent_club">Tegenstander Club: </string>
+    <string name="activity_status">staat: </string>
+    <string name="activity_home_away">Thuis/Uit: </string>
+    <string name="activity_home"> Thuis</string>
+    <string name="activity_away"> Uit</string>
+    <string name="activity_"></string>
+
+    <!-- Stats Screen -->
+    <string name="stats_header">statistieken</string>
+    <string name="stats_topscores">Topscores</string>
+    <string name="stats_attendance">Aanwezigheid</string>
+    <string name="stats_goals">Gem. aantal doelpunten per wedstrijd</string>
+    <string name="stats_assits">Assists</string>
+    <string name="stats_"></string>
+
+    <!-- Polls -->
+    <string name="poll_header">Stellingen</string>
+    <string name="poll_title">Poll</string>
+    <string name="poll_active">Is actief: </string>
+    <string name="poll_question">Vraag: </string>
+    <string name="poll_option">Poll Your Option</string>
+    <string name="poll_option_1">Optie 1: </string>
+    <string name="poll_option_2">Optie 2: </string>
+    <string name="poll_option_3">Optie 3: </string>
+    <string name="poll_"></string>
+
+    <!-- My Profile -->
+    <string name="profile_header">mijn profiel</string>
+    <string name="profile_email">E-mail: </string>
+    <string name="profile_my_pic">mijn afbeelding: </string>
+    <string name="profile_team_pic">team afbeelding: </string>
+    <string name="profile_notification"> Ja, stuur mij Kennisgeving.</string>
+    <string name="profile_attendance">Auto aanmelden: </string>
+    <string name="profile_password">Wachtwoord wijzigen</string>
+    <string name="profile_game"> Wedstrijd</string>
+    <string name="profile_event"> Evenementen</string>
+    <string name="profile_task"> Taken</string>
+    <string name="profile_training"> Trainingen</string>
+    <string name="profile_"></string>
+
+    <!-- Results Fixtures -->
+    <string name="results_header">Resultaten Wedstrijden</string>
+    <string name="results_write">Resultaat niet aangegeven nog niet.</string>
+    <string name="results_score">Score: </string>
+    <string name="results_review">Review: </string>
+    <string name="results_title">Uitslag</string>
+    <string name="results_goals">Goals</string>
+    <string name="results_we"> wij gewonnen</string>
+    <string name="results_they"> Ze gewonnen</string>
+    <string name="results_draw"> Gelijkspel</string>
+    <string name="results_player">speler</string>
+    <string name="results_minutes">Minuut van scoren</string>
+    <string name="results_assisted">Assisted By</string>
+    <string name="results_add">Toevoegen</string>
+    <string name="results_clear">Wis</string>
+    <string name="results_goal_by">doel door: </string>
+    <string name="results_assisted_by">Assisted By: </string>
+    <string name="results_goal_time">doel Tijd: </string>
+    <string name="results_team">Team: </string>
+    <string name="results_"></string>
+
+    <!-- Calendar Setting -->
+    <string name="calendar_header">Kalender instellen</string>
+    <string name="calendar_save">Opslaan instellen</string>
+
+    <!-- Send Messages -->
+    <string name="msg_header">Stuur berichten</string>
+    <string name="msg_team">Voor teamleden</string>
+    <string name="msg_captain">Om Kapitein van Andere Team</string>
+    <string name="msg_done">gedaan</string>
+    <string name="msg_email">E-mail: </string>
+    <string name="msg_push">duwen kennisgeving: </string>
+    <string name="msg_send">sturen</string>
+    <string name="msg_none">geen</string>
+    <string name="msg_"></string>
+
+    <!-- Player Details -->
+    <string name="player_header"></string>
+    <string name="player_position">positie: </string>
+    <string name="player_goals">doelen: </string>
+    <string name="player_assists">Assists: </string>
+    <string name="player_ranking">Pos.clubranglijst: </string>
+    <string name="player_"></string>
+
+    <!-- Team Details -->
+    <string name="team_header"></string>
+    <string name="team_games">Number Of Games: </string>
+    <string name="team_goals">Number Of Goals: </string>
+    <string name="team_ranking">Club Ranking: </string>
+    <string name="team_avg_goals">Gem. aantal doelpunten per wedstrijd: </string>
+    <string name="team_scorer">Topscoorders: </string>
+    <string name="team_assists">Koning assists: </string>
+    <string name="team_"></string>
+
+    <!-- Alerts -->
+    <string name="select">Selecteer</string>
+    <string name="select_season">Selecteer seizoen</string>
+    <string name="select_type">Selecteer Type</string>
+    <string name="select_club">Selecteer Club</string>
+    <string name="select_team">Selecteer Team</string>
+    <string name="select_opponent">Selecteer Tegenstander</string>
+    <string name="select_location">Selecteer Lokatie</string>
+    <string name="select_status">Selecteer staat</string>
+    <string name="select_player">Selecteer speler</string>
+    <string name="select_winner">Selecteer Winnaar</string>
+    <string name="location_not">Lokatie niet gevonden</string>
+    <string name="season_not">Seizoen niet beschikbaar</string>
+    <string name="search_not">Geen resultaten gevonden</string>
+    <string name="enter">Evenementen</string>
+    <string name="enter_comments">Opmerkingen</string>
+    <string name="enter_name">Naam</string>
+    <string name="enter_nick">Bijnaam</string>
+    <string name="enter_type">Soort</string>
+    <string name="enter_description">Omschrijving</string>
+    <string name="enter_location">Lokatie</string>
+    <string name="enter_details">Details</string>
+    <string name="enter_result">Uitslag</string>
+    <string name="enter_review">Review</string>
+    <string name="enter_question">Vraag</string>
+    <string name="enter_option">Optie</string>
+    <string name="enter_threshold">drempel</string>
+    <string name="assembly">verzamelen</string>
+    <string name="saved">opgeslagen</string>
+    <string name="sent_successfully">succesvol verzonden</string>
+    <string name="attendance_failed">Mislukt aan het bezoeken bijwerken</string>
+    <string name="calendar_change">U kunt door het veranderen van agenda-instellingen.</string>
+    <string name="calendar_already">Informatie is al toegevoegd aan de Agenda.</string>
+    <string name="calendar_failed">Kan geen informatie toe te voegen aan de kalender.</string>
+    <string name="calendar_success">Informatie toegevoegd aan de kalender</string>
+    <string name="calendar_add">Kan niet toe te voegen aan Agenda</string>
+    <string name="password_incorrect">Het wachtwoord dat u heeft is onjuist.</string>
+    <string name="password_match">Wachtwoord komen niet overeen</string>
+    <string name="password_failed">Mislukt om het wachtwoord te wijzigen</string>
+    <string name="password_success">Wachtwoord succesvol gewijzigd</string>
+    <string name="password_limit">Ongeldig wachtwoord. gaan meer dan 6 karakters en minder dan 10 tekens</string>
+    <string name="image_large">Afbeelding te groot is, kan niet van toepassing</string>
+    <string name="please">alstublieft</string>
+    <string name="goal_mins">doelen minuten</string>
+    <string name="date_gone">Datum geselecteerd voor Task is verdwenen</string>
+    <string name="season_gone">Geselecteerde seizoen is weg, selecteer een ander seizoen.</string>
+    <string name="out_of_season">datum is buiten het seizoen bereik</string>
+    <string name="assembly_after">Vergadering datum moet niet na spel datum</string>
+    <string name="assembly_before">U kunt niet de vorige datum voor de montage.</string>
+    <string name="set">Set</string>
+    <string name="set_date">Datum</string>
+    <string name="set_time">Tijd</string>
+    <string name="result_not">Resultaat niet aangegeven nog niet.</string>
+    <string name="game_result">wedstrijd Uitslag</string>
+    <string name="set_result">Stel Wedstrijd Uitslag</string>
+    <string name="post_failed">Mislukt om te posten</string>
+    <string name="save_failed">Failed To Save</string>
+    <string name="submit_failed">Mislukt Voor het indienen van</string>
+    <string name="insert_failed">Mislukt Plaats</string>
+    <string name="update_failed">Mislukt bijwerken</string>
+    <string name="delete_failed">Mislukt Verwijder</string>
+    <string name="send_failed">Niet kon worden verzonden</string>
+    <string name="delete_sure">Weet je zeker dat je wilt verwijderen!</string>
+    <string name="deleting">verwijderen...</string>
+    <string name="sending">verzending...</string>
+    <string name="posting">Posting...</string>
+    <string name="wait">even geduld aub...</string>
+    <string name="login_failed">Login mislukt</string>
+    <string name="email_invalid">Ongeldige e-mail</string>
+    <string name="password_invalid">Ongeldig wachtwoord</string>
+    <string name="service">Service niet beschikbaar</string>
+    <string name="initializing">Initialiseren. even geduld aub...</string>
+    <string name="loading">Laden. even geduld aub...</string>
+    <string name="email_require">E-mail adres is vereist.</string>
+    <string name="email_unavailable">Het e-mailadres kon niet worden gevonden.</string>
+    <string name="reset_password">Typ uw e-mailadres hieronder in om uw wachtwoord opnieuw in te stellen.</string>
+    <string name="email_password">Je hebt zojuist een e-mail met uw wachtwoord.</string>
+    <string name="network_title">Geen netwerk verbinding</string>
+    <string name="network_msg">U bent momenteel offline en niet kan bereiken VoetBalApp</string>
+    <string name="send_registration_to_server">Registratie Id gestuurd naar Server succesvol</string>
+    <string name="send_registration_to_server_failed">Failed to send Registration Id to Server</string>
+    <string name="results_add_edit_score">Vul de score</string>
+
+</resources>

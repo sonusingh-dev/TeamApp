@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/header_bar" >
+
+        <TextView
+            android:id="@+id/lblTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/all_act"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <!-- Body View -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/body_bg"
+        android:orientation="vertical" >
+
+        <!-- Check Boxes -->
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="2dp" >
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@+id/chkGame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/chkTraining"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/chkEvents"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/chkTasks"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp" >
+                </CheckBox>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="W"
+                    android:textColor="#4a4a4a"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="TR"
+                    android:textColor="#4a4a4a"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="EV"
+                    android:textColor="#4a4a4a"
+                    android:textSize="14sp" >
+                </TextView>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="TA"
+                    android:textColor="#4a4a4a"
+                    android:textSize="14sp" >
+                </TextView>
+            </TableRow>
+        </TableLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="10dp"
+            android:background="@drawable/hor_div" />
+
+        <!-- Activities List -->
+
+        <include
+            android:id="@+id/lstTeamActivities"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/list_view" />
+    </LinearLayout>
+
+</LinearLayout>

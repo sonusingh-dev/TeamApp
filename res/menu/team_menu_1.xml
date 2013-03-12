@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mniGame"
+        android:icon="@drawable/game"
+        android:title="@string/game"/>
+    <item
+        android:id="@+id/mniTraining"
+        android:icon="@drawable/training"
+        android:title="@string/training"/>
+    <item
+        android:id="@+id/mniTasks"
+        android:icon="@drawable/tasks"
+        android:title="@string/task"/>
+    <item
+        android:id="@+id/mniStats"
+        android:icon="@drawable/stats"
+        android:title="@string/stats_header"/>
+    <item
+        android:id="@+id/mniEvents"
+        android:icon="@drawable/events"
+        android:title="@string/event"/>
+    <item
+        android:id="@+id/mniPoll"
+        android:icon="@drawable/poll"
+        android:title="@string/poll"/>
+    <item
+        android:id="@+id/mniProfile"
+        android:icon="@drawable/profile"
+        android:title="@string/profile_header"/>
+    <item
+        android:id="@+id/mniTeamAlbum"
+        android:icon="@drawable/album"
+        android:title="@string/album"/>
+    <item
+        android:id="@+id/mniCalendar"
+        android:icon="@drawable/calendar"
+        android:title="@string/calendar_header"/>
+    <item
+        android:id="@+id/mniLogout"
+        android:icon="@drawable/icon"
+        android:title="@string/logout"/>
+
+</menu>

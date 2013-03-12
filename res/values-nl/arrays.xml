@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Calendar Setting -->
+    <string-array name="calendar">
+        <item>Altijd in kalender</item>
+        <item>Alleen indien aanwezig</item>
+        <item>Nooit in kalender</item>
+    </string-array>
+
+</resources>

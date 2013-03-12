@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lblAbsent"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:drawableLeft="@drawable/player_absent"
+    android:ellipsize="end"
+    android:lines="1"
+    android:text="TextView"
+    android:textColor="@color/black" >
+
+</TextView>

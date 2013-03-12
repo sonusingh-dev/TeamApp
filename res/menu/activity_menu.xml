@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/mniEdit"
+        android:icon="@drawable/icon"
+        android:title="Edit"/>
+
+    <item
+        android:id="@+id/mniDelete"
+        android:icon="@drawable/icon"
+        android:title="Delete"/>
+
+</menu>

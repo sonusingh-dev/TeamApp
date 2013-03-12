@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TeamApp.nl</string>
+    <string name="club">Club</string>
+    <string name="team">Team</string>
+    <string name="album">Album</string>
+    <string name="game">Game</string>
+    <string name="event">Events</string>
+    <string name="task">Tasks</string>
+    <string name="training">Training</string>
+    <string name="news">News</string>
+    <string name="poll">Poll</string>
+    <string name="all">All</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="send">Send</string>
+    <string name="ok">OK</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="submit">Submit</string>
+    <string name="update">Update</string>
+    <string name="share">Share</string>
+    <string name="post">Post</string>
+    <string name="logout">Logout</string>
+    <string name="clubden">Clubden</string>
+    <string name="search">Search</string>
+    <string name="upload">Upload Image</string>
+    <string name="camera">Take Photo</string>
+    <string name="gallery">Choose from Gallery...</string>
+    <string name="attendance">Attendance</string>
+    <string name="comments">Comments</string>
+    <string name="notification">Notification</string>
+    <string name="available">Available</string>
+    <string name="all_act">All Activity</string>
+    <string name="season">Season: </string>
+    <string name="search_header">Search Player</string>
+    <string name="search_title">Search By: </string>
+    <string name="player">Player</string>
+    <string name="date">Date: </string>
+    <string name="date_picker">Date Picker</string>
+    <string name="time">Time: </string>
+    <string name="time_picker">Time Picker</string>
+    <string name="name">Name: </string>
+    <string name="nick">Nick Name: </string>
+    <string name="birth">Date of Birth: </string>
+    <string name="share_title">Article sharing through</string>
+
+    <!-- Login Screen -->
+    <string name="login_header">TeamApp.nl</string>
+    <string name="login_title">TeamApp.nl log in with your username and password</string>
+    <string name="login_login">Login</string>
+    <string name="login_faq">FAQ</string>
+    <string name="login_forgot_password">Forgot Password</string>
+    <string name="login_register_title">Don"\'"t have a TeamApp.nl account?</string>
+    <string name="login_register">Register</string>
+    <string name="login_"></string>
+
+    <!-- Comments -->
+    <string name="comments_header">Comments</string>
+    <string name="comments_name">Post Comment: </string>
+    <string name="comments_post">Post</string>
+    <string name="comments_popup">What would you like to do?</string>
+    <string name="comments_"></string>
+
+    <!-- Activities Screen -->
+    <string name="activity_header"></string>
+    <string name="activity_type">Type: </string>
+    <string name="activity_type_other">Other Type: </string>
+    <string name="activity_location">Location: </string>
+    <string name="activity_location_other">Other Location: </string>
+    <string name="activity_desc">Description: </string>
+    <string name="activity_details">Details: </string>
+    <string name="activity_present">Present</string>
+    <string name="activity_absent">Absent</string>
+    <string name="activity_supporter">Supporter</string>
+    <string name="activity_not_responded">Not Responded</string>
+    <string name="activity_accepted">Accepted By</string>
+    <string name="activity_assign">Assign Player</string>
+    <string name="activity_threshold">Threshold: </string>
+    <string name="activity_assembly">Assembly: </string>
+    <string name="activity_assembly_date">Assembly Date: </string>
+    <string name="activity_assembly_time">Assembly Time: </string>
+    <string name="activity_assembly_date_time">Date and Time of Assembly: </string>
+    <string name="activity_opponent">Opponent: </string>
+    <string name="activity_opponent_team">Opponent Team: </string>
+    <string name="activity_opponent_club">Opponent Club: </string>
+    <string name="activity_status">Status: </string>
+    <string name="activity_home_away">Home/Away: </string>
+    <string name="activity_home"> Home</string>
+    <string name="activity_away"> Away</string>
+    <string name="activity_"></string>
+
+    <!-- Stats Screen -->
+    <string name="stats_header">Stats</string>
+    <string name="stats_topscores">Topscores</string>
+    <string name="stats_attendance">Attendance</string>
+    <string name="stats_goals">Goals Per Game</string>
+    <string name="stats_assits">Assists</string>
+    <string name="stats_"></string>
+
+    <!-- Polls -->
+    <string name="poll_header">Polls</string>
+    <string name="poll_title">Poll</string>
+    <string name="poll_active">Is Active: </string>
+    <string name="poll_question">Question: </string>
+    <string name="poll_option">Poll Your Option</string>
+    <string name="poll_option_1">Option 1: </string>
+    <string name="poll_option_2">Option 2: </string>
+    <string name="poll_option_3">Option 3: </string>
+    <string name="poll_"></string>
+
+    <!-- My Profile -->
+    <string name="profile_header">My Profile</string>
+    <string name="profile_email">Email: </string>
+    <string name="profile_my_pic">My Picture: </string>
+    <string name="profile_team_pic">Team Picture: </string>
+    <string name="profile_notification"> Yes, send me Notification.</string>
+    <string name="profile_attendance">Auto Attendance: </string>
+    <string name="profile_password">Change Password</string>
+    <string name="profile_game"> Game</string>
+    <string name="profile_event"> Events</string>
+    <string name="profile_task"> Tasks</string>
+    <string name="profile_training"> Training</string>
+    <string name="profile_"></string>
+
+    <!-- Results Fixtures -->
+    <string name="results_header">Results Fixtures</string>
+    <string name="results_write">Result not declared yet.</string>
+    <string name="results_score">Score: </string>
+    <string name="results_review">Review: </string>
+    <string name="results_title">Result</string>
+    <string name="results_goals">Goals</string>
+    <string name="results_we"> We Won</string>
+    <string name="results_they"> They Won</string>
+    <string name="results_draw"> Draw</string>
+    <string name="results_player">Player</string>
+    <string name="results_minutes">Goal In Minutes</string>
+    <string name="results_assisted">Assisted By</string>
+    <string name="results_add">Add</string>
+    <string name="results_clear">Clear</string>
+    <string name="results_goal_by">Goal By: </string>
+    <string name="results_assisted_by">Assisted By: </string>
+    <string name="results_goal_time">Goal Time: </string>
+    <string name="results_team">Team: </string>
+    <string name="results_"></string>
+
+    <!-- Calendar Setting -->
+    <string name="calendar_header">Calendar Setting</string>
+    <string name="calendar_save">Save Setting</string>
+
+    <!-- Send Messages -->
+    <string name="msg_header">Send Messages</string>
+    <string name="msg_team">To Team Members</string>
+    <string name="msg_captain">To Captain Of Other Team</string>
+    <string name="msg_done">Done</string>
+    <string name="msg_email">Email: </string>
+    <string name="msg_push">Push Notification: </string>
+    <string name="msg_send">Send</string>
+    <string name="msg_none">None</string>
+    <string name="msg_"></string>
+
+    <!-- Player Details -->
+    <string name="player_header"></string>
+    <string name="player_position">Position: </string>
+    <string name="player_goals">Goals: </string>
+    <string name="player_assists">Assists: </string>
+    <string name="player_ranking">Position In Club RankingList: </string>
+    <string name="player_"></string>
+
+    <!-- Team Details -->
+    <string name="team_header"></string>
+    <string name="team_games">Number Of Games: </string>
+    <string name="team_goals">Number Of Goals: </string>
+    <string name="team_ranking">Club Ranking: </string>
+    <string name="team_avg_goals">Avg Goals Per Game: </string>
+    <string name="team_scorer">Top Scorer: </string>
+    <string name="team_assists">King Of Assists: </string>
+    <string name="team_"></string>
+
+    <!-- Alerts -->
+    <string name="select">Select</string>
+    <string name="select_season">Select Season</string>
+    <string name="select_type">Select Type</string>
+    <string name="select_club">Select Club</string>
+    <string name="select_team">Select Team</string>
+    <string name="select_opponent">Select Opponent</string>
+    <string name="select_location">Select Location</string>
+    <string name="select_status">Select Status</string>
+    <string name="select_player">Select Player</string>
+    <string name="select_winner">Select Winner</string>
+    <string name="location_not">Location Not Found</string>
+    <string name="season_not">Season Not Available</string>
+    <string name="search_not">No Result Found</string>
+    <string name="enter">Enter</string>
+    <string name="enter_comments">Comments</string>
+    <string name="enter_name">Name</string>
+    <string name="enter_nick">Nick Name</string>
+    <string name="enter_type">Type</string>
+    <string name="enter_description">Description</string>
+    <string name="enter_location">Location</string>
+    <string name="enter_details">Details</string>
+    <string name="enter_result">Result</string>
+    <string name="enter_review">Review</string>
+    <string name="enter_question">Question</string>
+    <string name="enter_option">Option</string>
+    <string name="enter_threshold">Threshold</string>
+    <string name="assembly">Assembly</string>
+    <string name="saved">Saved</string>
+    <string name="sent_successfully">Sent Successfully</string>
+    <string name="attendance_failed">Failed To Update Attendance</string>
+    <string name="calendar_change">You can add by changing calendar settings.</string>
+    <string name="calendar_already">Information has been already added to the Calendar.</string>
+    <string name="calendar_failed">Failed to add Information to the Calendar</string>
+    <string name="calendar_success">Information added to the Calendar</string>
+    <string name="calendar_add">Unable to add to Calendar</string>
+    <string name="password_incorrect">The password you gave is incorrect.</string>
+    <string name="password_match">Password do not match</string>
+    <string name="password_failed">Failed to change the password</string>
+    <string name="password_success">Password changed successfully</string>
+    <string name="password_limit">Invalid Password. enter more than 6 characters and less than 10 characters</string>
+    <string name="image_large">Image is too large, can"\'"t apply</string>
+    <string name="please">Please</string>
+    <string name="goal_mins">Goals Minutes</string>
+    <string name="date_gone">Date selected for Task is gone</string>
+    <string name="season_gone">Selected season is gone, select another season.</string>
+    <string name="out_of_season">date is out of the season range</string>
+    <string name="assembly_after">Assembly date should not be after game date</string>
+    <string name="assembly_before">You cannot select the previous date for assembly.</string>
+    <string name="set">Set</string>
+    <string name="set_date">Date</string>
+    <string name="set_time">Time</string>
+    <string name="result_not">Result not declared yet.</string>
+    <string name="game_result">Game Result</string>
+    <string name="set_result">Set Game Result</string>
+    <string name="post_failed">Failed To Post</string>
+    <string name="save_failed">Failed To Save</string>
+    <string name="submit_failed">Failed To Submit</string>
+    <string name="insert_failed">Failed To Insert</string>
+    <string name="update_failed">Failed To Update</string>
+    <string name="delete_failed">Failed To Delete</string>
+    <string name="send_failed">Failed To Send</string>
+    <string name="delete_sure">Are you sure you want to delete!</string>
+    <string name="deleting">Deleting...</string>
+    <string name="sending">Sending...</string>
+    <string name="posting">Posting...</string>
+    <string name="wait">Please wait...</string>
+    <string name="login_failed">Login Failed</string>
+    <string name="email_invalid">Invalid Email</string>
+    <string name="password_invalid">Invalid Password</string>
+    <string name="service">Service Not Available</string>
+    <string name="initializing">Initializing. Please wait...</string>
+    <string name="loading">Loading. Please wait...</string>    
+    <string name="email_require">Email address is required.</string>
+    <string name="email_unavailable">The email address could not be found.</string>
+    <string name="reset_password">Type your email address below to reset your password.</string>
+    <string name="email_password">You have just been sent an e-mail containing your password.</string>
+    <string name="network_title">No network connection</string>
+    <string name="network_msg">You are currently offline and cannot reach VoetBalApp</string>
+    <string name="send_registration_to_server">Registration Id sent to Server Successfully</string>
+    <string name="send_registration_to_server_failed">Failed to send Registration Id to Server</string>
+    <string name="results_add_edit_score">Please enter score</string>
+
+</resources>

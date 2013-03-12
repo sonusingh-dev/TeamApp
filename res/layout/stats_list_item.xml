@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/body_bg" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/stats_item_bg"
+        android:padding="2dp"
+        android:weightSum="1" >
+
+        <TextView
+            android:id="@+id/lblIndex"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.15"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/ltblack"
+            android:textSize="14sp" >
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgPlayer"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="2dp"
+            android:background="@drawable/simple_border"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.65"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+            <TextView
+                android:id="@+id/lblName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:text="Name"
+                android:textColor="@color/black" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lblNickName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:lines="1"
+                android:maxLines="1"
+                android:textColor="@color/sub_title"
+                android:textSize="12sp" >
+            </TextView>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lblCount"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.20"
+            android:gravity="center_vertical"
+            android:textColor="@color/ltblack" >
+        </TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgTrophy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/star_gold" />
+
+</RelativeLayout>
